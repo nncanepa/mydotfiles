@@ -179,6 +179,7 @@ hc rule class='Xfce4-appfinder' floating=on
 hc rule class='zoom' title='Settings' floating=on
 hc rule instance='Places' class='firefox' floating=on
 hc rule class='Pavucontrol' floating=on
+hc rule windowrole~'toolbox_window' floating=on # Caja de herramientas Dia
 
 hc set tree_style '╾│ ├└╼─┐'
 
