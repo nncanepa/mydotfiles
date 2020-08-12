@@ -44,6 +44,7 @@ hc set_layout horizontal
 hc keybind $Mod-m spawn xfce4-appfinder
 hc keybind $Mod-Control-Shift-p spawn systemctl poweroff 
 hc keybind $Mod-Control-Shift-o spawn systemctl reboot
+hc keybind $Mod-Control-Shift-l spawn ~/.config/herbstluftwm/keyboard_layout.sh
 hc keybind XF86MonBrightnessUp spawn xbacklight -inc 10
 hc keybind XF86MonBrightnessDown spawn xbacklight -dec 10
 
