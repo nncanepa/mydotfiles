@@ -18,6 +18,7 @@ xfce4-clipman & #Clipboard manager
 pa-applet & #Volume Control
 flameshot & #Screenshot
 picom & #Compositor
+synclient TapButton1=1 TapButton2=3 TapButton3=2 
 
 
 xsetroot -solid '#5A8E3A'
