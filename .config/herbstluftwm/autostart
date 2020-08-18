@@ -34,7 +34,7 @@ Mod=Mod4   # Use the super key as the main modifier
 hc keybind $Mod-Shift-q close
 hc keybind $Mod-Shift-r reload
 hc keybind $Mod-Shift-c quit
-hc keybind $Mod-Return spawn lxterminal # use your $TERMINAL with xterm as fallback
+hc keybind $Mod-Return spawn termite # use your $TERMINAL with xterm as fallback
 
 #Nico configs
 hc keybind $Mod-d spawn rofi -show run
