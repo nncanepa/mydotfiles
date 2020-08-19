@@ -1,0 +1,18 @@
+
+# Changing "ls" to "exa"
+alias ls='exa -al --color=always --group-directories-first' # my preferred listing
+alias la='exa -a --color=always --group-directories-first'  # all files and dirs
+alias ll='exa -l --color=always --group-directories-first'  # long format
+alias lt='exa -aT --color=always --group-directories-first' # tree listing
+# broot
+alias br='br -dhp'
+alias bs='br --sizes'
+# the terminal rickroll
+alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash'
+# devour windows
+alias mpv="devour mpv"
+alias sxiv="devour sxiv"
+#alias zathura="devour zathura"
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+source /home/nncanepa/.config/broot/launcher/bash/br
+pfetch
