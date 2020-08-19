@@ -11,7 +11,12 @@ alias ll='ls -la'
 export BROWSER=firefox
 export PATH=$PATH:~/.local/bin
 export EDITOR=vim
-PS1='[\u@\h \W]\$ '
+
+#PS1='[\u@\h \W]\$ '
+
+# Custom bash prompt via kirsle.net/wizards/ps1.html
+export PS1="\[$(tput bold)\]\[$(tput setaf 1)\][\[$(tput setaf 3)\]\u\[$(tput setaf 2)\]@\[$(tput setaf 4)\]\h \[$(tput setaf 5)\]\W\[$(tput setaf 1)\]]\[$(tput setaf 7)\]\\$ \[$(tput sgr0)\]"
+
 /usr/bin/synclient TapButton1=1 TapButton2=3 TapButton3=2
 
 # Extract shortcuts #####################################
@@ -62,8 +67,8 @@ alias bs='br --sizes'
 alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash'
 
 # devour windows
-#alias mpv="devour mpv"
-#alias sxiv="devour sxiv"
+alias mpv="devour mpv"
+alias sxiv="devour sxiv"
 #alias zathura="devour zathura"
 
 alias commit="git commit -a"
