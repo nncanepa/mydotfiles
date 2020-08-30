@@ -18,6 +18,7 @@ xfce4-clipman & #Clipboard manager
 pa-applet & #Volume Control
 flameshot & #Screenshot
 picom & #Compositor
+indicator-sound-switcher &
 synclient TapButton1=1 TapButton2=3 TapButton3=2 
 
 
@@ -34,7 +35,7 @@ Mod=Mod4   # Use the super key as the main modifier
 hc keybind $Mod-Shift-q close
 hc keybind $Mod-Shift-r reload
 hc keybind $Mod-Shift-c quit
-hc keybind $Mod-Return spawn termite # use your $TERMINAL with xterm as fallback
+hc keybind $Mod-Return spawn alacritty # use your $TERMINAL with xterm as fallback
 
 #Nico configs
 hc keybind $Mod-d spawn rofi -show run
@@ -197,7 +198,6 @@ hc unlock
 #hc set_monitors 1980x1080+0+0 1920x1080+0+1080
 hc detect_monitors
 nitrogen --restore &
-
 # find the panel
 panel=~/.config/herbstluftwm/launch.sh
 [ -x "$panel" ] || panel=/etc/xdg/herbstluftwm/panel.sh

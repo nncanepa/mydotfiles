@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apps=("udiskie"  "xfce4-clipman" "cbatticon" "pa-applet" "flameshot" "picom")
+apps=("udiskie"  "xfce4-clipman" "cbatticon" "pa-applet" "flameshot" "picom" "indicator-sound-switcher")
 
 for app in ${apps[*]}; do
     echo $app
